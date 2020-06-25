@@ -1,0 +1,199 @@
+
+/* Начала стилей для формы добавления */
+
+.original {
+    width: 100%;
+    background: #qqq;
+    padding: 0px;
+    color: #303030;
+    box-sizing: border-box;
+}
+
+.original *{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.original .addphoto {
+    background: #eeeeee;
+    border: 1px solid #cbcbcb;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.original .addphotooriginal {
+    background: #eeeeee;
+    border: 1px solid #cbcbcb;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.original .photo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    background: #eeeeee;
+}
+
+.original .addphoto:hover {
+    background: #cbcbcb;
+}
+
+.original .photoMini {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    background: #eeeeee;
+    box-sizing: border-box;
+}
+
+.original .addtext {
+    width: 100%;
+    height: 130px;
+    background: #fff;
+    border: 1px solid #cbcbcb;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.original .hidefile {
+    display: none;
+}
+
+.original .clouse_img_so {
+    border: 1px solid #cbcbcb;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000;
+    background: #fff;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.editItemsInLine {
+    width: 100%;
+}
+
+.editItemsInLineItem {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.editItemsInLineItem .controls{
+    margin: 0px 10px 0px 0px!important;
+    padding: 0px!important;
+}
+
+/* конец стилей для формы добавления */
+
+/* Теги */
+
+.so_tags {
+    width: 700px;
+}
+
+.so_tags_items {
+    border: 1px solid #c8ccd0;
+    box-sizing: border-box;
+    overflow: hidden;
+    min-height: 40px;
+}
+
+.so_tags_items span {
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 5px;
+    background: #cee0ed;
+    color:#33658a;
+    float: left;
+    margin: 5px;
+}
+
+.so_tags_items span i:after {
+    content: "×";
+    color: #fff;
+}
+
+.so_tag_remove {
+    border: 0px solid #cbcbcb;
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #fff;
+    background: #f00;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.so_tags_input {
+    width: 100%;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.so_tags_input input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px!important;
+}
+
+.so_tags_autocomplete {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #c8ccd0;
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+    background: #fff;
+}
+
+.so_tags_autocomplete li{
+    padding: 5px 5px;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: pointer;
+}
+
+.so_tags_autocomplete li:hover{
+    background: #eeeeee;
+}
+
+
+/* конец теги */
+
+.so_tags_link {
+    display: block!important;
+}
+
+.user-admin {
+    color: #fff;
+    background:#46a546 ;
+}
+
+.user-published {
+    color: #fff;
+    background:#2d6ca2 ;
+}

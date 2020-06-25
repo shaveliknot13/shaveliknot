@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="myFieldset">
+        <field
+                name="user_id"
+                type="user"
+                label="Пользователь"
+                class="readonly"
+                required="true"
+                />
+        <field
+                name="product"
+                type="text"
+                label="Продукт"
+                description=""
+                size="255"
+                required="true"
+                />
+        <field
+                name="title_ru"
+                type="text"
+                label="Заголовок на RU"
+                description=""
+                size="255"
+                required="true"
+                />
+        <field
+                name="title_en"
+                type="text"
+                label="Заголовок на EN"
+                description=""
+                size="255"
+                required="true"
+                />
+        <field
+                name="title_he"
+                type="text"
+                label="Заголовок на HE"
+                description=""
+                size="255"
+                required="true"
+                />
+
+        <field
+                name="alias_ru"
+                type="text"
+                label="Алияс на RU"
+                description=""
+                size="255"
+                required="true"
+                />
+        <field
+                name="alias_en"
+                type="text"
+                label="Алияс на EN"
+                description=""
+                size="255"
+                required="true"
+                />
+        <field
+                name="alias_he"
+                type="text"
+                label="Алияс на HE"
+                description=""
+                size="255"
+                required="true"
+                />
+        <field
+                name="mini_text_ru"
+                type="textarea"
+                label="Мини Описание на RU"
+                description=""
+                width="500"
+                required="true"
+                />
+        <field
+                name="mini_text_en"
+                type="textarea"
+                label="Мини описание на EN"
+                description=""
+                width="500"
+                required="true"
+                />
+        <field
+                name="mini_text_he"
+                type="textarea"
+                label="Мини описание на HE"
+                description=""
+                width="500"
+                required="true"
+                />
+        <field
+                name="hwp_text_ru"
+                type="textarea"
+                label="Как прошла покупка на RU"
+                description=""
+                width="500"
+                required="true"
+        />
+        <field
+                name="hwp_text_en"
+                type="textarea"
+                label="Как прошла покупка на EN"
+                description=""
+                width="500"
+                required="true"
+        />
+        <field
+                name="hwp_text_he"
+                type="textarea"
+                label="Как прошла покупка на HE"
+                description=""
+                width="500"
+                required="true"
+        />
+        <field
+                name="text_ru"
+                type="textarea"
+                label="Описание на RU"
+                description=""
+                width="500"
+                required="true"
+                />
+        <field
+                name="text_en"
+                type="textarea"
+                label="Описание на EN"
+                description=""
+                width="500"
+                required="true"
+                />
+        <field
+                name="text_he"
+                type="textarea"
+                label="Описание на HE"
+                description=""
+                width="500"
+                required="true"
+                />
+        <field
+                name="published"
+                type="list"
+                default="1"
+                label="Опубликовано"
+                description=""
+                required="true"
+                >
+            <option value="1">Да</option>
+            <option value="0">Нет</option>
+        </field>
+        <field
+                name="trash"
+                type="list"
+                default="0"
+                label="Удален пользователем"
+                description=""
+                required="true"
+                >
+            <option value="1">Да</option>
+            <option value="0">Нет</option>
+        </field>
+        <field
+                name="cat_id"
+                type="catfild"
+                label="Категория"
+                description=""
+                required="true"
+                />
+        <field
+                name="delivery_id"
+                type="deliveryfild"
+                label="Оплата"
+                description=""
+                required="true"
+                />
+        <field
+                name="shop_name"
+                type="text"
+                label="Название магазина"
+                description=""
+                required="true"
+                size="255"
+                />
+        <field
+                name="shop"
+                type="url"
+                label="Ссылка на магазин"
+                description=""
+                required="true"
+                size="255"
+                />
+        <field
+                name="youtube"
+                type="url"
+                label="Ссылка на ютуб"
+                description=""
+                size="255"
+                />
+        <field
+                name="price"
+                type="text"
+                label="Цена"
+                description=""
+                required="true"
+                size="255"
+                />
+    </fields>
+</form>

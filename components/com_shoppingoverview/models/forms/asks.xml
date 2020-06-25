@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="myFieldset">
+        <field
+                name="link"
+                type="text"
+                label="COM_SHOPPINGOVERVIEW_TEXT_49"
+                description=""
+                required="true"
+        />
+        <field
+                name="text"
+                type="textarea"
+                label="COM_SHOPPINGOVERVIEW_TEXT_50"
+                description=""
+        />
+    </fields>
+</form>

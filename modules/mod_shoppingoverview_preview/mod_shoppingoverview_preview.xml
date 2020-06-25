@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Shopping overview preview</name>
+    <author>blacklev</author>
+    <version>1.0.0</version>
+    <description>Модуль для вывода превью</description>
+    <files>
+        <filename>mod_shoppingoverview_preview.xml</filename>
+        <filename module="mod_shoppingoverview_preview">mod_shoppingoverview_preview.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="getRoutPosition"
+                        type="list"
+                        multiple="true"
+                        label="Страницы компонента"
+                        description=""
+                        required="true"
+                        >
+                    <option value="all">Все</option>
+                    <option value="home">Главная</option>
+                    <option value="categories">Категории</option>
+                    <option value="item">Обзор</option>
+                    <option value="search">Поиск</option>
+                    <option value="edit">Добовление/Редактирование</option>
+                    <option value="useritems">Мои обзоры</option>
+                    <option value="userfavorites">Моё избранное</option>
+                    <option value="usersubscribes">Мои подписки</option>
+                    <option value="userhits">История просмотров</option>
+                    <option value="editprofile">Редактировать профиль</option>
+                    <option value="editsocialprofile">Редактировать социальные аккаунты</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

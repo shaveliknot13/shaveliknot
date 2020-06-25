@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="myFieldset">
+        <field
+                name="title"
+                type="text"
+                label="Название"
+                description=""
+                size="255"
+                required="true"
+                />
+        <field
+                name="title_ru"
+                type="text"
+                label="Заголовок письма RU"
+                description=""
+                size="255"
+                required="true"
+                />
+        <field
+                name="title_en"
+                type="text"
+                label="Заголовок письма EN"
+                description=""
+                size="255"
+                required="true"
+                />
+        <field
+                name="title_he"
+                type="text"
+                label="Заголовок письма HE"
+                description=""
+                size="255"
+                required="true"
+                />
+        <field
+                name="content_ru"
+                type="textarea"
+                label="HTML RU"
+                description=""
+                width="500"
+                required="true"
+                />
+        <field
+                name="content_en"
+                type="textarea"
+                label="HTML EN"
+                description=""
+                width="500"
+                required="true"
+                />
+        <field
+                name="content_he"
+                type="textarea"
+                label="HTML HE"
+                description=""
+                width="500"
+                required="true"
+                />
+        <field
+                name="template"
+                type="text"
+                label="Шаблон"
+                description=""
+                required="true"
+                />
+        <field
+                name="type"
+                type="list"
+                label="Тип"
+                description=""
+                required="true"
+                >
+            <option value="base">Базовая деталь</option>
+            <option value="template">Шаблон письма</option>
+        </field>
+        <field
+                name="published"
+                type="list"
+                default="1"
+                label="Опубликовано"
+                description=""
+                required="true"
+                >
+            <option value="1">Да</option>
+            <option value="0">Нет</option>
+        </field>
+    </fields>
+</form>

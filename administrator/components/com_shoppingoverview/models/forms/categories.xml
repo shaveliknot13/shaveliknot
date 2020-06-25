@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="myFieldset">
+        <field
+                name="mini_title_ru"
+                type="text"
+                label="Мини название ru"
+                description=""
+                size="10"
+                required="true"
+                />
+        <field
+                name="mini_title_en"
+                type="text"
+                label="Мини название en"
+                description=""
+                size="10"
+                required="true"
+                />
+        <field
+                name="mini_title_he"
+                type="text"
+                label="Мини название he"
+                description=""
+                size="10"
+                required="true"
+                />
+        <field
+                name="title_ru"
+                type="text"
+                label="Название ru"
+                description=""
+                size="10"
+                required="true"
+                />
+        <field
+                name="title_en"
+                type="text"
+                label="Название en"
+                description=""
+                size="10"
+                required="true"
+                />
+        <field
+                name="title_he"
+                type="text"
+                label="Название he"
+                description=""
+                size="10"
+                required="true"
+                />
+        <field
+                name="alias"
+                type="text"
+                label="Алияс"
+                description=""
+                size="10"
+                required="true"
+                />
+        <field
+                name="text"
+                type="editor"
+                label="Описание"
+                description=""
+                width="300"
+                />
+        <field
+                name="icon"
+                type="text"
+                label="Иконка"
+                description=""
+                />
+        <field
+                name="published"
+                type="list"
+                default="1"
+                label="Опубликовано"
+                description=""
+                required="true"
+                >
+            <option value="1">Да</option>
+            <option value="0">Нет</option>
+        </field>
+    </fields>
+</form>

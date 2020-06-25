@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="shoppingoverview" method="upgrade">
+	<name>Shopping overview lang</name>
+	<author>blacklev2010@gmail.com</author>
+	<creationDate>13.12.2018</creationDate>
+	<copyright>Copyright (C) 2005 - 2018. All rights reserved.</copyright>
+	<license>GNU/GPL v.3 or later.</license>
+	<authorEmail>blacklev2010@gmail.com</authorEmail>
+	<authorUrl>blacklev2010@gmail.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Shopping overview lang</description>
+	<files>
+		<filename plugin="lang">lang.php</filename>
+	</files>
+</extension>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="myFieldset">
+        <field
+                name="title_ru"
+                type="text"
+                label="Название ru"
+                description=""
+                size="10"
+                required="true"
+                />
+        <field
+                name="title_en"
+                type="text"
+                label="Название en"
+                description=""
+                size="10"
+                required="true"
+                />
+        <field
+                name="title_he"
+                type="text"
+                label="Название he"
+                description=""
+                size="10"
+                required="true"
+                />
+        <field
+                name="published"
+                type="list"
+                default="1"
+                label="Опубликовано"
+                description=""
+                required="true"
+                >
+            <option value="1">Да</option>
+            <option value="0">Нет</option>
+        </field>
+    </fields>
+</form>

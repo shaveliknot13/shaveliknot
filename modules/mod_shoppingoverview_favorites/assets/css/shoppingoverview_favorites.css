@@ -1,0 +1,70 @@
+.mod_shoppingoverview_favorites {
+    border: 0px solid #a2a2a2;
+    padding: 0px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.mod_shoppingoverview_favorites .block-title {
+    font-size: 16px;
+    color: #6b6b6b;
+    font-weight: bold;
+    padding: 5px 0px 15px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e4ebf9;
+    position: relative;
+}
+
+.mod_shoppingoverview_favorites .block-title:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f005";
+    color: #faaf1e;
+    padding: 12px 8px;
+    position: absolute;
+    right: 0px;
+    top: -7px;
+    background: none;
+    z-index: 1;
+    text-align: center;
+    width: 40px;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.mod_shoppingoverview_favorites .block {
+    padding: 10px 0px 10px 0px;
+}
+
+.mod_shoppingoverview_favorites .block ul {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.mod_shoppingoverview_favorites .block ul li a {
+    padding: 3px 0px!important;
+    margin: 0px!important;
+    color: #0c8aff;
+    display: block;
+}
+
+.mod_shoppingoverview_favorites .block ul li a:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f054";
+    margin-right: 5px;
+}
+
+
+
+.mod_shoppingoverview_favorites .block ul li a:hover {
+    background: none;
+    text-decoration: underline;
+}
+
+.mod_shoppingoverview_favorites .block ul li a span{
+    font-weight: bold;
+}

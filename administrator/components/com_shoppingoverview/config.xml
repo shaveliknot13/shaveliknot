@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<config>
+    <fieldset name="global" label="JGLOBAL_FIELDSET_OPTIONS">
+        <field name="note11" type="note" label="Настройка соединения с БД" />
+        <field
+                name="bd_driver"
+                type="text"
+                default="mysqli"
+                label="Имя драйвера БД"
+                filter="raw"
+                />
+        <field
+                name="bd_host"
+                type="text"
+                default="localhost"
+                label="Хост БД"
+                filter="raw"
+                />
+        <field
+                name="bd_user"
+                type="text"
+                default="root"
+                label="Имя пользователя"
+                filter="raw"
+                />
+        <field
+                name="bd_password"
+                type="text"
+                default=""
+                label="Пароль"
+                filter="raw"
+                />
+        <field
+                name="bd_database"
+                type="text"
+                default="kostya3"
+                label="Имя БД"
+                filter="raw"
+                />
+        <field
+                name="bd_prefix"
+                type="text"
+                default="dy6dn_"
+                label="префикс таблиц"
+                filter="raw"
+                />
+        <field type="spacer" name="myspacer" hr="true" />
+        <field name="note12" type="note" label="Настройка загрузки картинок" />
+        <field
+                name="img_size"
+                type="text"
+                default="10"
+                label="Вес в мегабайтах"
+                filter="raw"
+                />
+        <field
+                name="img_size_min_height"
+                type="text"
+                default="10"
+                label="Мин высота"
+                filter="raw"
+                />
+        <field
+                name="img_size_min_width"
+                type="text"
+                default="10"
+                label="Мин ширина"
+                filter="raw"
+                />
+        <field
+                name="img_size_max_height"
+                type="text"
+                default="10"
+                label="Макс высота"
+                filter="raw"
+                />
+        <field
+                name="img_size_max_width"
+                type="text"
+                default="10"
+                label="Макс ширина"
+                filter="raw"
+                />
+        <field type="spacer" name="myspacer" hr="true" />
+        <field name="note13" type="note" label="Настройка глобального показа рекламы в обзорах" />
+        <field
+                name="advertising_queue"
+                type="text"
+                default="8"
+                label="Как часто"
+                filter="raw"
+                />
+        <field type="spacer" name="myspacer" hr="true" />
+        <field name="note14" type="note" label="Пароль на отправку рассылки по крону" />
+        <field
+                name="password_cron"
+                type="text"
+                default=""
+                label="Пароль"
+                filter="raw"
+                />
+    </fieldset>
+</config>

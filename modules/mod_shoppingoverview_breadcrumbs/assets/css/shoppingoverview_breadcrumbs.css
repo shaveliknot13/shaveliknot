@@ -1,0 +1,20 @@
+
+.mod_shoppingoverview_breadcrumbs a{
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #0c8aff;
+}
+
+.mod_shoppingoverview_breadcrumbs a:hover{
+    text-decoration: underline;
+}
+
+
+.mod_shoppingoverview_breadcrumbs {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    color: #77797a;
+}

@@ -1,0 +1,14 @@
+.shoppingoverview_publications_right_bar .panel-my{
+    background: none;
+    color: #666666;
+    line-height: 28px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: 1px solid #bfcad6;
+    text-align: center;
+}
+
+.shoppingoverview_publications_right_bar .panel-my div{
+    padding: 15px;
+    box-sizing: border-box;
+}

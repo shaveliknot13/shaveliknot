@@ -1,0 +1,191 @@
+
+.mod_shoppingoverview_navigational {
+    border: 0px solid #a2a2a2;
+    padding: 0px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.mod_shoppingoverview_navigational .block-title {
+    font-size: 16px;
+    color: #6b6b6b;
+    font-weight: bold;
+    padding: 5px 0px 15px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e4ebf9;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.mod_shoppingoverview_navigational .block-title:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f15d";
+    color: #6b6b6b;
+    padding: 12px 8px;
+    position: absolute;
+    right: 0px;
+    top: -7px;
+    background: none;
+    z-index: 1;
+    text-align: center;
+    width: 40px;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.mod_shoppingoverview_navigational .date_block {
+    width: 100%!important;
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+.mod_shoppingoverview_navigational .date_block select {
+    width: 100%!important;
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    height: 35px;
+    border: 0px;
+    color: #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:#e4ebf9;
+    border-radius: 5px;
+}
+
+.mod_shoppingoverview_navigational .date_block:after {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f078";
+    color: #000;
+    padding: 12px 8px;
+    position: absolute; right: 0; top: -4px;
+    background: none;
+    z-index: 1;
+    text-align: center;
+    width: 40px;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+
+
+.mod_shoppingoverview_navigational .select_block {
+    width: 100%!important;
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+.mod_shoppingoverview_navigational .select_block select {
+    width: 100%!important;
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    height: 35px;
+    border: 0px;
+    color: #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:#e4ebf9;
+    border-radius: 5px;
+}
+
+.mod_shoppingoverview_navigational .select_block:after {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f078";
+    color: #000;
+    padding: 12px 8px;
+    position: absolute; right: 0; top: -4px;
+    background: none;
+    z-index: 1;
+    text-align: center;
+    width: 40px;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.mod_shoppingoverview_navigational  .list_block .list_item {
+    cursor: pointer;
+    font-weight: bold;
+    color: #58a214;
+    border-bottom:1px solid #727272;
+    padding: 3px 0px;
+    display: none;
+}
+
+.mod_shoppingoverview_navigational  .list_block .list_item span {
+    font-weight: normal;
+    color: #727272;
+}
+
+.mod_shoppingoverview_navigational  .list_block ul {
+    margin: 5px 0px;
+}
+
+.mod_shoppingoverview_navigational  .list_block ul li {
+    list-style: none;
+    padding: 3px 0px;
+}
+
+.mod_shoppingoverview_navigational  .list_block a {
+    display: block;
+    cursor: pointer;
+    color: #146dc0;
+    padding: 3px 0px;
+}
+
+.mod_shoppingoverview_navigational  .list_block span {
+    color: #146dc0;
+    font-weight: bold;
+}
+
+.mod_shoppingoverview_navigational  .fast_click {
+    text-align: center;
+}
+
+.mod_shoppingoverview_navigational  .fast_click .fast_click_item {
+    display: block;
+    padding: 5px;
+    border: 1px solid #e4ebf9;
+    margin: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    background: none;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    line-height: 32px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    float: left;
+}
+
+.mod_shoppingoverview_navigational  .fast_click .fast_click_item:hover {
+    background: #0c8aff;
+    color: #fff;
+}
+
+.mod_shoppingoverview_navigational  .fast_click .fast_click_item.active {
+    background: #0c8aff;
+    color: #fff;
+}

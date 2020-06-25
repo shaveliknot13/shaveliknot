@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="myFieldset">
+        <field
+                name="user_id"
+                type="user"
+                label="Пользователь"
+                class="readonly"
+                required="true"
+                />
+        <field
+                name="privilege"
+                type="privilegesfild"
+                label="Привелегии"
+                description=""
+                required="true"
+                multiple="true"
+                />
+        <field
+                name="published"
+                type="list"
+                default="1"
+                label="Опубликовано"
+                description=""
+                required="true"
+                >
+            <option value="1">Да</option>
+            <option value="0">Нет</option>
+        </field>
+    </fields>
+</form>

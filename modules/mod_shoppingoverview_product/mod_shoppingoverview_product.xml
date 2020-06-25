@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Shopping overview production</name>
+    <author>blacklev</author>
+    <version>1.0.0</version>
+    <description>Модуль для вывода продуктов</description>
+    <files>
+        <filename>mod_shoppingoverview_product.xml</filename>
+        <filename module="mod_shoppingoverview_product">mod_shoppingoverview_product.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="viewDefault"
+                        type="list"
+                        default="latest"
+                        label="Показывать по умолчанию"
+                        description=""
+                        required="true"
+                        >
+                    <option value="latest">Последние</option>
+                    <option value="discussed">Обсуждаемые</option>
+                    <option value="likes">Лучшие</option>
+                    <option value="popular">Популярные</option>
+                </field>
+                <field
+                        name="viewDisplay"
+                        type="list"
+                        default="latest"
+                        multiple="true"
+                        label="Показывать варианты"
+                        description=""
+                        required="true"
+                        >
+                    <option value="latest">Последние</option>
+                    <option value="discussed">Обсуждаемые</option>
+                    <option value="likes">Лучшие</option>
+                    <option value="popular">Популярные</option>
+                </field>
+                <field
+                        name="count"
+                        type="text"
+                        default="5"
+                        label="Количество продуктов"
+                        description=""
+                        required="true"
+                        >
+                </field>
+                <field
+                        name="getRoutPosition"
+                        type="list"
+                        multiple="true"
+                        label="Страницы компонента"
+                        description=""
+                        required="true"
+                        >
+                    <option value="all">Все</option>
+                    <option value="home">Главная</option>
+                    <option value="categories">Категории</option>
+                    <option value="item">Обзор</option>
+                    <option value="search">Поиск</option>
+                    <option value="edit">Добовление/Редактирование</option>
+                    <option value="useritems">Мои обзоры</option>
+                    <option value="userfavorites">Моё избранное</option>
+                    <option value="usersubscribes">Мои подписки</option>
+                    <option value="userhits">История просмотров</option>
+                    <option value="editprofile">Редактировать профиль</option>
+                    <option value="editsocialprofile">Редактировать социальные аккаунты</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

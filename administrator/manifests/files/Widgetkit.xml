@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <extension version="1" type="file" method="upgrade">
+      <name>Widgetkit</name>
+      <version>1</version>
+      <creationDate>23 April 2016</creationDate>
+      <author>Widgetkit</author>
+      <authorEmail></authorEmail>
+      <authorUrl></authorUrl>
+      <copyright>Copyright (C) 2016. All rights reserved.</copyright>
+      <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+      <description>Widgetkit Pro</description>
+      <fileset>
+          <!-- Admin component language folder for Joomla! 3.4-->
+       <files folder="admin" target="administrator/components/com_widgetkit/languages/">
+         <filename>ru_RU.json</filename>
+       </files>
+
+      </fileset>
+  </extension>

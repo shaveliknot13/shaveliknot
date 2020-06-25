@@ -1,0 +1,203 @@
+
+.shoppingoverview_publications_left_bar {
+    border: 0px solid #a2a2a2;
+    padding: 0px 0px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    color: #1e366f;
+}
+
+.shoppingoverview_publications_left_bar * {
+    text-shadow: none!important;
+}
+
+.shoppingoverview_publications_left_bar ul {
+    margin: 0px!important;
+    border-bottom: 1px solid #e4ebf9;
+    padding: 20px 0px!important;
+}
+
+.shoppingoverview_publications_left_bar ul li {
+    padding: 0px!important;
+    margin: 0px!important;
+    cursor: pointer;
+}
+
+.shoppingoverview_publications_left_bar ul.filterSoDelivery li a:not(.nav-header):before {
+    width: 16px;
+    height: 16px;
+    background: #e2e6eb;
+    border-radius: 8px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.shoppingoverview_publications_left_bar ul.filterSoDelivery li a:not(.nav-header):before {
+    width: 16px;
+    height: 16px;
+    background: #e2e6eb;
+    border: 3px solid #e2e6eb;
+    border-radius: 8px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.shoppingoverview_publications_left_bar ul.filterSoDelivery li.active a:not(.nav-header):before {
+    background: #71c232;
+}
+
+.shoppingoverview_publications_left_bar ul.filterSoVideo li input[type="checkbox"] {
+    position: relative;
+    width: 50px;
+    height: 22px;
+    -webkit-appearance: none;
+    outline: none;
+    background: #f4f5f6;
+    border: 1px solid #bfcad6;
+    border-radius: 20px;
+    transition: .5s;
+    margin: 0px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.shoppingoverview_publications_left_bar .filterSoPrice input[type="text"] {
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    box-shadow: none;
+    color: #1e366f;
+    background: #f4f5f6;
+    border: 1px solid #bfcad6;
+    border-radius: 0px;
+}
+
+.shoppingoverview_publications_left_bar .filterSoPrice .noClickCat {
+    padding: 0px 20px!important;
+    cursor: auto;
+}
+
+.shoppingoverview_publications_left_bar .filterSoPrice input[type="button"] {
+    padding: 0px 25px;
+    height:27px ;
+    box-sizing: border-box;
+    float: right;
+    background: #72c91a;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+.shoppingoverview_publications_left_bar .filterSoPrice input[type="button"]:hover {
+    background: #0c8aff;
+}
+
+
+.shoppingoverview_publications_left_bar ul.filterSoVideo li input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    background: #bfcad6;
+    transition: .5s;
+    transform: scale(1.1);
+    top: 2px;
+    left:2px;
+    float: right;
+}
+
+.shoppingoverview_publications_left_bar ul.filterSoVideo li.active input[type="checkbox"]:before {
+    left: 30px;
+    background: #71c232;
+}
+
+
+
+.shoppingoverview_publications_left_bar ul li.nav-header {
+    font-size: 14px;
+    color: #1e366f;
+    padding: 0px 20px 15px 20px!important;
+    text-transform: none;
+}
+
+.shoppingoverview_publications_left_bar ul li a {
+    padding: 10px 20px!important;
+    margin: 0px!important;
+    display: block;
+}
+.shoppingoverview_publications_left_bar ul li a:hover {
+    color: #4e77d8;
+    background: #f6f9ff;
+}
+
+.shoppingoverview_publications_left_bar ul li a:focus {
+    color: #4e77d8;
+    background: #f6f9ff;
+}
+
+.shoppingoverview_publications_left_bar a {
+    padding: 0px !important;
+    margin: 0px !important;
+    color: #1e366f;
+}
+
+.shoppingoverview_publications_left_bar li.active a{
+    background: #f6f9ff;
+    color: #1e366f;
+}
+
+.shoppingoverview_publications_left_bar li.active a:hover{
+    background: #f6f9ff;
+    color: #4e77d8;
+}
+
+
+.shoppingoverview_publications_left_bar i {
+    margin-right: 6px;
+
+}
+
+.shoppingoverview_publications_left_bar ul.filterSoDay li a:not(.nav-header):before {
+    width: 16px;
+    height: 16px;
+    background: #e2e6eb;
+    border-radius: 8px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.shoppingoverview_publications_left_bar ul.filterSoDay li a:not(.nav-header):before {
+    width: 16px;
+    height: 16px;
+    background: #e2e6eb;
+    border: 3px solid #e2e6eb;
+    border-radius: 8px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.shoppingoverview_publications_left_bar ul.filterSoDay li.active a:not(.nav-header):before {
+    background: #71c232;
+}
+
+
+
+
+

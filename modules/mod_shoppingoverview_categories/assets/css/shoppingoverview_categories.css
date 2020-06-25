@@ -1,0 +1,168 @@
+.mod_shoppingoverview_categories {
+    position: relative;
+    margin: 20px 0;
+    width: calc(100% - 120px);
+}
+
+.mod_shoppingoverview_categories a {
+    width: 85px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+
+.mod_shoppingoverview_categories a i {
+    width: 85px;
+    height: 85px;
+    color: #0c8aff;
+    background: #fff;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    line-height: 85px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.mod_shoppingoverview_categories a:hover {
+    color: #0c8aff;
+}
+
+.mod_shoppingoverview_categories a:hover i {
+    background: #0c8aff;
+    color: #fff;
+}
+
+
+.mod_shoppingoverview_categories a.active i {
+    background: #0c8aff;
+    color: #fff;
+}
+
+.mod_shoppingoverview_categories a.active {
+    color: #0c8aff;
+}
+
+.mod_shoppingoverview_categories .owl-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.mod_shoppingoverview_categories .owl-prev, .mod_shoppingoverview_categories  .owl-next {
+    width: 35px;
+    height: 85px;
+    position: absolute;
+    top: 43px;
+    transform: translateY(-50%);
+    display: block !important;
+    border:0px solid black;
+    background: #fff;
+}
+.mod_shoppingoverview_categories .owl-prev { right: -60px; }
+.mod_shoppingoverview_categories .owl-next { right: -120px; }
+
+.mod_shoppingoverview_categories .owl-prev i, .mod_shoppingoverview_categories  .owl-next i {
+    width: 35px;
+    height: 85px;
+    color: #dadada;
+    background: #fff;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    line-height: 85px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.mod_shoppingoverview_categories .owl-prev:hover i , .mod_shoppingoverview_categories .owl-next:hover i {
+    color: #0c8aff;
+}
+
+.mod_shoppingoverview_categories .owl-prev i {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.mod_shoppingoverview_categories .owl-next i {
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+
+@media (max-width: 600px) {
+    .mod_shoppingoverview_categories {
+        width: 100%;
+    }
+
+    .mod_shoppingoverview_categories .owl-dots {
+        text-align: center;
+        width: 100%;
+        padding: 20px 0px 5px;
+    }
+
+    .mod_shoppingoverview_categories .owl-dots button{
+        width: 12px;
+        height: 12px;
+        background: #b1b7cc!important;
+        display: inline-block;
+        margin: 0px 2px;
+        cursor: pointer;
+        border-radius: 6px;
+        border: 2px solid #fff!important;
+        box-sizing: border-box;
+    }
+
+    .mod_shoppingoverview_categories .owl-dots button.active{
+        background: #72c91a!important;
+    }
+
+    .mod_shoppingoverview_categories .owl-nav{
+        position: relative;
+    }
+
+    .mod_shoppingoverview_categories .owl-prev, .mod_shoppingoverview_categories  .owl-next {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 28px;
+        transform: translateY(-50%);
+        display: block !important;
+        border:0px solid black;
+        background: #fff;
+    }
+
+    .mod_shoppingoverview_categories .owl-prev { left: 0px; }
+
+    .mod_shoppingoverview_categories .owl-next { right: 0px; }
+
+    .mod_shoppingoverview_categories .owl-prev i, .mod_shoppingoverview_categories  .owl-next i {
+        width: 35px;
+        height: 35px;
+        color: #fff;
+        background: #e6e6e6;
+        border-radius: 18px;
+        display: block;
+        text-align: center;
+        line-height: 35px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        box-shadow: none;
+    }
+
+    .mod_shoppingoverview_categories .owl-prev:hover i , .mod_shoppingoverview_categories .owl-next:hover i {
+        color: #0c8aff;
+        background: #fff;
+    }
+}

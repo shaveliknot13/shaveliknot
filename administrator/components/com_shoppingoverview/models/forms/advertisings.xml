@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="myFieldset">
+        <field
+                name="title"
+                type="text"
+                label="Название"
+                description=""
+                size="255"
+                required="true"
+                />
+        <field
+                name="content"
+                type="textarea"
+                label="Реклама"
+                description=""
+                width="500"
+                required="true"
+                />
+        <field
+                name="type_js_php"
+                type="list"
+                default="js"
+                label="js и html или php"
+                description=""
+                required="true"
+                >
+            <option value="js">js и html</option>
+            <option value="php">php</option>
+        </field>
+        <field
+                name="type_mod_com"
+                type="list"
+                default="module"
+                label="Компонент или модуль"
+                description=""
+                required="true"
+                >
+            <option value="module">Module</option>
+            <option value="component">Component</option>
+            <option value="item">Item</option>
+            <option value="email">email</option>
+        </field>
+        <field
+                name="position"
+                type="advertisingsfild"
+                label="Позиция"
+                description=""
+                />
+        <field
+                name="mod_id"
+                type="text"
+                label="Id модуля"
+                description=""
+                size="255"
+                />
+        <field
+                name="hits_constraints"
+                type="text"
+                label="Ограничение на просмотры"
+                description=""
+                size="255"
+                required="true"
+                default="0"
+                />
+        <field
+                name="hits"
+                type="text"
+                label="Просмотры"
+                description=""
+                size="255"
+                required="true"
+                default="0"
+                />
+        <field
+                name="published"
+                type="list"
+                default="1"
+                label="Опубликовано"
+                description=""
+                required="true"
+                >
+            <option value="1">Да</option>
+            <option value="0">Нет</option>
+        </field>
+    </fields>
+</form>

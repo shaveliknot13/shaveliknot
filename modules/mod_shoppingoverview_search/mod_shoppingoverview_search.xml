@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Shopping overview search</name>
+    <author>blacklev</author>
+    <version>1.0.0</version>
+    <description>Модуль для поиска</description>
+    <files>
+        <filename>mod_shoppingoverview_search.xml</filename>
+        <filename module="mod_shoppingoverview_search">mod_shoppingoverview_search.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/base.php</filename>
+        <filename>tmpl/top-border-search.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="view"
+                        type="list"
+                        default="base.php"
+                        label="Вид"
+                        description=""
+                        required="true"
+                        >
+                    <option value="base.php">По умолчанию</option>
+                    <option value="top-border-search.php">top-border-search</option>
+                </field>
+                <field
+                        name="getRoutPosition"
+                        type="list"
+                        multiple="true"
+                        label="Страницы компонента"
+                        description=""
+                        required="true"
+                        >
+                    <option value="all">Все</option>
+                    <option value="home">Главная</option>
+                    <option value="categories">Категории</option>
+                    <option value="item">Обзор</option>
+                    <option value="search">Поиск</option>
+                    <option value="edit">Добовление/Редактирование</option>
+                    <option value="useritems">Мои обзоры</option>
+                    <option value="userfavorites">Моё избранное</option>
+                    <option value="usersubscribes">Мои подписки</option>
+                    <option value="userhits">История просмотров</option>
+                    <option value="editprofile">Редактировать профиль</option>
+                    <option value="editsocialprofile">Редактировать социальные аккаунты</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

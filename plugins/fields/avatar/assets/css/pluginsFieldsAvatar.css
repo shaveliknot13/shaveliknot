@@ -1,0 +1,120 @@
+.plgFieldsAvatarEdie {
+    display: none!important;
+}
+
+.controls .photo_avatar, .controls .hidefile_avatar, .cropPlgFieldsAvatar {
+    display: none;
+}
+
+.addphoto_avatar, .cropPlgFieldsAvatar {
+    text-align: center;
+    background: #72c91a;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 0px;
+    text-decoration: none;
+    border-bottom: 1px solid #32ae0c;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.addphoto_avatar:hover, .cropPlgFieldsAvatar:hover {
+    background: #0c8aff;
+    border-bottom: 1px solid #016bce;
+}
+
+.photo_avatar {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    background: #eeeeee;
+}
+
+.photo_avatar .clouse_img_so_avatar {
+    border: 1px solid #cbcbcb;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000;
+    background: #fff;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.userProfileAmx {
+
+}
+
+.userProfileAmx form{
+    padding: 0px;
+    border: 0px;
+}
+
+.userProfileAmx legend{
+    background: #eef4fd;
+    color: #145fc4;
+    line-height: 28px;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.userProfileAmx .btn-primary {
+    background: #0c8aff;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #016bce;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 0 12px;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-block;
+    min-width: 220px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.userProfileAmx .btn-primary:hover {
+    background: #72c91a;
+    border-bottom: 1px solid #32ae0c;
+}
+
+.userProfileAmx a.btn {
+    background: #cbcbcb;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 0 12px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #A9A9A9;
+    cursor: pointer;
+    color: #000;
+    display: inline-block;
+    min-width: 110px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    text-shadow: none;
+}
+
+.userProfileAmx a.btn:hover {
+    background: #A9A9A9;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.mod_shoppingoverview_search select{
+    display: inline-block!important;
+}
+
+.mod_shoppingoverview_search .chzn-container {
+    display: none!important;
+}

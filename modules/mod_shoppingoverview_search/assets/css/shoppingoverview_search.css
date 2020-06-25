@@ -1,0 +1,97 @@
+
+.mod_shoppingoverview_search {
+    width: 100%;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.mod_shoppingoverview_search form {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mod_shoppingoverview_search .input-append {
+    margin-bottom:0px;
+}
+
+.mod_shoppingoverview_search input {
+    border: 0px;
+    border-radius:3px 0px 0px 3px;
+    height: 34px;
+    box-sizing: border-box;
+    width: 280px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, 'Font Awesome 5 Pro';
+    box-shadow: none!important;
+}
+
+.mod_shoppingoverview_search select {
+    border: 0px;
+    border-radius:0px ;
+    height: 34px;
+    box-sizing: border-box;
+    width: auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:#fff url("../img/arrow.jpg") 96% / 15% no-repeat;
+    padding-right: 22px;
+    line-height: normal;
+}
+
+.mod_shoppingoverview_search select *{
+    font-size: 14px;
+}
+
+.mod_shoppingoverview_search .result_search {
+    position: absolute;
+    width: 468px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    background: #fff;
+    z-index: 99;
+    right: 0px;
+}
+
+.mod_shoppingoverview_search .result_search ul{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #c8ccd0;
+}
+
+.mod_shoppingoverview_search .result_search li{
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: pointer;
+    list-style:none;
+}
+
+.mod_shoppingoverview_search .result_search li a{
+    display: block;
+    padding: 5px 5px;
+}
+
+.mod_shoppingoverview_search .result_search li:hover{
+    background: #eeeeee;
+}
+
+.mod_shoppingoverview_search .input-search {
+    background: #72c91a;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    padding: 0px 22px;
+    box-sizing: border-box;
+    height: 34px;
+    line-height: 34px;
+    text-shadow: none!important;
+}
+
+
+.mod_shoppingoverview_search .input-search:hover {
+    background: #fff;
+    color:#555;
+}
